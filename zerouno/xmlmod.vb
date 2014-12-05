@@ -18,6 +18,10 @@
 
 Imports System.Xml
 
+''' <summary>
+''' Saves the current hardware info in a XML file
+''' </summary>
+''' <remarks></remarks>
 Public Module xmlmod
 
     Public Function saveXML(ByVal strFilename As String, ByVal strArrayPopulate() As String) As Integer

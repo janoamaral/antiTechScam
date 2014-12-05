@@ -25,6 +25,7 @@ Public Class Form1
     Private Sub lst_ItemSelectionChanged(sender As Object, e As System.Windows.Forms.ListViewItemSelectionChangedEventArgs) Handles lst.ItemSelectionChanged
         Dim auxStr As String
         Dim strDesc(2) As String
+
         If lst.Items(e.ItemIndex).SubItems.Count = 2 Then
             auxStr = lst.Items.Item(e.ItemIndex).SubItems.Item(1).Text
             If auxStr = "" Then
@@ -35,15 +36,12 @@ Public Class Form1
                 lblComponente.Text = strDesc(0)
                 txtDescripcion.Text = strDesc(1)
             End If
-            
         End If
-
 
     End Sub
 
 
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-
 
         lst.Items.Add("DISCOS RIGIDOS").SubItems.Add("Disco Rígido/Click sobre los componentes para conocer más")
         For Each Str As String In QueryHD()

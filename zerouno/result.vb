@@ -17,7 +17,6 @@
 'along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Public Class result
-
     Private Sub PictureBox1_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox1.Click
         Me.Close()
 
