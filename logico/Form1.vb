@@ -129,7 +129,7 @@ Public Class Form1
     End Sub
 
     Private Sub PictureBox5_Click(sender As System.Object, e As System.EventArgs) Handles PictureBox5.Click
-        infovb.lblTitulo.Text = "Zerouno Soluciones Informáticas"
+        infovb.lblTitulo.Text = "Lógico [software + hosting]"
         infovb.lblDesc.Text = "Ideamos este programa para brindarle información básica sobre los componentes de su PC y así evitar que técnicos y empresas sin ética profesional puedan cambiar o robar sus piezas. Ante cualquier duda siempre pida una segunda opinión con otro técnico. Esperamos que este programa le sea de utilidad"
         infovb.ShowDialog()
 
