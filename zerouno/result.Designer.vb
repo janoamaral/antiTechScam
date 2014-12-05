@@ -43,7 +43,7 @@ Partial Class result
         'PictureBox1
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.zerouno.My.Resources.Resources.btnAceptar
+        Me.PictureBox1.Image = Global.logico.My.Resources.Resources.btnAceptar
         Me.PictureBox1.Location = New System.Drawing.Point(771, 228)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(92, 34)
@@ -76,7 +76,7 @@ Partial Class result
         'picbox
         '
         Me.picbox.ErrorImage = CType(resources.GetObject("picbox.ErrorImage"), System.Drawing.Image)
-        Me.picbox.Image = Global.zerouno.My.Resources.Resources.ok
+        Me.picbox.Image = Global.logico.My.Resources.Resources.ok
         Me.picbox.InitialImage = CType(resources.GetObject("picbox.InitialImage"), System.Drawing.Image)
         Me.picbox.Location = New System.Drawing.Point(27, 68)
         Me.picbox.Name = "picbox"

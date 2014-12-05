@@ -54,7 +54,7 @@ Partial Class infovb
         'PictureBox1
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox1.Image = Global.zerouno.My.Resources.Resources.btnAceptar
+        Me.PictureBox1.Image = Global.logico.My.Resources.Resources.btnAceptar
         Me.PictureBox1.Location = New System.Drawing.Point(667, 150)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(92, 34)

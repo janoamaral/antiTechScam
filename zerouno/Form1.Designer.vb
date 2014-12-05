@@ -102,7 +102,7 @@ Partial Class Form1
         'PictureBox7
         '
         Me.PictureBox7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox7.Image = Global.zerouno.My.Resources.Resources.comparar_off
+        Me.PictureBox7.Image = Global.logico.My.Resources.Resources.comparar_off
         resources.ApplyResources(Me.PictureBox7, "PictureBox7")
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.TabStop = False
@@ -111,7 +111,7 @@ Partial Class Form1
         'PictureBox6
         '
         Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox6.Image = Global.zerouno.My.Resources.Resources.guardar_off
+        Me.PictureBox6.Image = Global.logico.My.Resources.Resources.guardar_off
         resources.ApplyResources(Me.PictureBox6, "PictureBox6")
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.TabStop = False
@@ -120,7 +120,7 @@ Partial Class Form1
         'PictureBox5
         '
         Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = Global.zerouno.My.Resources.Resources.options_off
+        Me.PictureBox5.Image = Global.logico.My.Resources.Resources.options_off
         resources.ApplyResources(Me.PictureBox5, "PictureBox5")
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.TabStop = False
@@ -142,7 +142,7 @@ Partial Class Form1
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.zerouno.My.Resources.Resources.programa
+        Me.PictureBox3.Image = Global.logico.My.Resources.Resources.programa
         resources.ApplyResources(Me.PictureBox3, "PictureBox3")
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.TabStop = False
