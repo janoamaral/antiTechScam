@@ -120,6 +120,6 @@ Public Class Form1
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
-        System.Diagnostics.Process.Start("www.zerouno.com.ar")
+        System.Diagnostics.Process.Start("http://logico.com.ar")
     End Sub
 End Class
